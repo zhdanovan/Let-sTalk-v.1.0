@@ -1,0 +1,35 @@
+{
+  "name": "let-stalk-v.1.0",
+  "version": "1.0.0",
+  "description": "Simple chat",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  
+"jest": {
+    "setupFiles": [
+      "./setupTests.js"
+    ]
+  },
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhdanovan/Let-sTalk-v.1.0.git"
+  },
+
+
+  "author": "Artem Zhdanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhdanovan/Let-sTalk-v.1.0/issues"
+  },
+  
+  "homepage": "https://github.com/zhdanovan/Let-sTalk-v.1.0#readme"
+}
