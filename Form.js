@@ -1,3 +1,7 @@
+import React from 'react';
+
+
+
 class Form extends React.Component {
     constructor() {
         super();
@@ -41,3 +45,6 @@ class Form extends React.Component {
         </form>
     }
 }
+
+export default Form;
+
