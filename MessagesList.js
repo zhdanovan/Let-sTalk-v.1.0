@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 class MessagesList extends React.Component {
     render(){
         const {messages}=this.props;
@@ -9,3 +12,6 @@ class MessagesList extends React.Component {
         </ul>;
     }
 }
+
+
+export default MessagesList;
