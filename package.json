@@ -6,30 +6,36 @@
   "directories": {
     "test": "tests"
   },
-
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
   },
-  
-"jest": {
+  "jest": {
     "setupFiles": [
       "./setupTests.js"
     ]
   },
-
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhdanovan/Let-sTalk-v.1.0.git"
   },
-
-
   "author": "Artem Zhdanov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhdanovan/Let-sTalk-v.1.0/issues"
   },
-  
-  "homepage": "https://github.com/zhdanovan/Let-sTalk-v.1.0#readme"
+  "homepage": "https://github.com/zhdanovan/Let-sTalk-v.1.0#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
+  }
 }
