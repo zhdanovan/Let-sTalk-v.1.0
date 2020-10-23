@@ -9,7 +9,10 @@ class Form extends React.Component {
         };
     }
 
-  handleSend() {
+ handleSend() {
+        if (this.state.nick ==='' || this.state.message === '' ){
+              alert('Поля пусты')
+        }
         this.props.postMessage({
             nick: this.state.nick,
             message: this.state.message
@@ -19,7 +22,7 @@ class Form extends React.Component {
         	nick:'',
         	message:'',
         });	
-    }
+    } 
     
     render() {
         const {nick, message} = this.state;
