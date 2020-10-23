@@ -9,14 +9,18 @@ class Form extends React.Component {
         };
     }
 
-
-    handleSend() {
+  handleSend() {
         this.props.postMessage({
             nick: this.state.nick,
             message: this.state.message
         });
-    }
 
+        this.setState({
+        	nick:'',
+        	message:'',
+        });	
+    }
+    
     render() {
         const {nick, message} = this.state;
 
