@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 class Form extends React.Component {
     constructor() {
@@ -9,9 +10,9 @@ class Form extends React.Component {
         };
     }
 
- handleSend() {
-        if (this.state.nick ==='' || this.state.message === '' ){
-              alert('Поля пусты')
+    handleSend() {
+        if (this.state.nick === '' || this.state.message === '') {
+            alert('Поля пусты')
         }
         this.props.postMessage({
             nick: this.state.nick,
@@ -19,30 +20,30 @@ class Form extends React.Component {
         });
 
         this.setState({
-        	nick:'',
-        	message:'',
-        });	
-    } 
-    
+            nick: '',
+            message: '',
+        });
+    }
+
     render() {
         const {nick, message} = this.state;
 
         return <form>
             <input
-                id ="nick"
+                id="nick"
                 value={nick}
                 type="text"
                 onChange={e => this.setState({nick: e.target.value})}
             />
             <br/>
-    <textarea
-        value={message}
-        onChange={e => this.setState({message: e.target.value})}
-    >
+            <textarea
+                value={message}
+                onChange={e => this.setState({message: e.target.value})}
+            >
     </textarea>
             <br/>
             <input
-                id = "button"
+                id="button"
                 type="button"
                 value="отправить"
                 onClick={() => this.handleSend()}
@@ -51,9 +52,13 @@ class Form extends React.Component {
     }
 }
 
+Form.propTypes = {
+    postMessage: PropTypes.func,
+}
+
 export default Form;
 
 
- /*
+/*
 Hello
- */
+*/
