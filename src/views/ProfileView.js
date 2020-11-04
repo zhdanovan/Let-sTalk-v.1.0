@@ -14,19 +14,19 @@ export default class ProfileView extends React.Component {
         apiServices.user
             .getProfile()
             .then(response => response.data)
-            .then(user => this.setState({ user }))
-            .catch(error => this.setState({ errorMessage: "Error! " + error.response.data.error}));
+            .then(user => this.setState({user}))
+            .catch(error => this.setState({errorMessage: "Error! " + error.response.data.error}));
     }
 
     render() {
-        const { user, errorMessage } = this.state;
+        const {user, errorMessage} = this.state;
         return (
             <>
                 <h1>Profile</h1>
                 {user && (
                     <>
                         <div className="profile">
-                            ID: { user.id }
+                            ID: {user.id}
                         </div>
                         <div className="profile">
                             Nickname: {user.nickname}
@@ -36,7 +36,7 @@ export default class ProfileView extends React.Component {
                         </div>
                     </>
                 )}
-                { errorMessage }
+                {errorMessage}
             </>
         );
     }
