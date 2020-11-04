@@ -1,25 +1,20 @@
-module.exports = {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
-
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "parser": "babel-eslint",
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "globals": {
+    "process": true,
+    "Promise": true
+  },
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "quotes": [2, "double"],
+    "comma-dangle": [2, "never"],
+    "react/prop-types": [0] 
+  }
+}
 
-};
