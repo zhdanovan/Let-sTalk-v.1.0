@@ -1,13 +1,12 @@
-
 import React from 'react';
-import { Link, Switch, Route, Redirect } from 'react-router-dom';
+import {Link, Switch, Route, Redirect} from 'react-router-dom';
 import LoginView from './views/LoginView';
 import RegistrationView from './views/RegistrationView';
 import ChatView from './views/ChatView';
 import ProfileView from "./views/ProfileView";
 
-class App extends React.Component{
-    render(){
+class App extends React.Component {
+    render() {
         return (
             <>
                 <div className="links">
