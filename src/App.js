@@ -1,83 +1,34 @@
-import Form from './components/Form';
+
 import React from 'react';
-import MessagesList from './components/MessagesList';
+import { Link, Switch, Route, Redirect } from 'react-router-dom';
+import LoginView from './views/LoginView';
+import RegistrationView from './views/RegistrationView';
+import ChatView from './views/ChatView';
+import ProfileView from "./views/ProfileView";
 
-
-
-
-
-const URL = 'http://localhost:3000';
-
-class App extends React.Component {
-
-    constructor() {
-
-        super();
-        this.state = {
-            serverMessages:[]
-
-        };
-
-        setInterval(this.getMessages.bind(this), 1000);
-
-    }
-
-    postMessage(newMessage) {
-        // метод отправки сообщения
-        let xhr = new XMLHttpRequest();
-        xhr.open('POST', URL);
-        xhr.send(JSON.stringify(newMessage));
-
-
-        xhr.onload = () => {
-            if (xhr.status !== 200) {
-                console.error('Ошибка!');
-            } else {
-                this.drawMessages(xhr.response);
-            }
-        };
-
-        xhr.onerror = function () {
-            console.log('Запрос не удался');
-        };
-    };
-
-    getMessages() {
-        // метод получения сообщений
-        let xhr = new XMLHttpRequest();
-        xhr.open('GET', URL);
-        xhr.send();
-        xhr.onload = () => {
-            if (xhr.status !== 200) {
-                console.error('Ошибка!');
-            } else {
-                this.drawMessages(xhr.response);
-            }
-        };
-    }
-
-
-    drawMessages(response) {
-        // метод отрисовки сообщений
-        this.setState({serverMessages: JSON.parse(response)});
-    }
-
-    render() {
-        return <>
-
-            <Form postMessage={(newMessage) => this.postMessage(newMessage)}/>
-
-            <MessagesList messages={this.state.serverMessages}/>
-        </>
-
-
-
+class App extends React.Component{
+    render(){
+        return (
+            <>
+                <div className="links">
+                    <Link to="/auth">Authentication</Link>&nbsp;
+                    <Link to="/registration">Registration</Link>&nbsp;
+                    <Link to="/profile">Profile</Link>&nbsp;
+                    <Link to="/chat">Chat</Link>
+                </div>
+                <Switch>
+                    <Route path="/auth" component={LoginView}/>
+                    <Route path="/registration" component={RegistrationView}/>
+                    <Route path="/profile" component={ProfileView}/>
+                    <Route path="/chat" component={ChatView}/>
+                    <Redirect exact from="/" to="/auth"/>
+                </Switch>
+            </>
+        );
     }
 }
 
 export default App;
-
-    
 
 
 
