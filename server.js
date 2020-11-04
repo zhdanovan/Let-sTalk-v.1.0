@@ -5,14 +5,14 @@ const defaultHeaders = {
     "Access-Control-Allow-Origin": "*"
 };
 
-const server = http.createServer(function(request, response) {
+const server = http.createServer(function (request, response) {
     if (request.method === "POST") {
         console.log("POST");
-        request.on("data", function(data) {
+        request.on("data", function (data) {
             console.log(data.toString());
             messages.push(JSON.parse(data.toString()));
         });
-        request.on("end", function() {
+        request.on("end", function () {
             response.writeHead(200, defaultHeaders);
             response.end(JSON.stringify(messages));
         })
