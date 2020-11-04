@@ -14,21 +14,21 @@ export default class LoginView extends React.Component {
     }
 
     handleSubmit(e) {
-        const { nickname, password } = this.state;
+        const {nickname, password} = this.state;
         e.preventDefault();
         this.setState({
             successMessage: "",
             errorMessage: ""
         });
         apiServices.auth
-            .login({ nickname, password })
+            .login({nickname, password})
             .then(() => this.setState({successMessage: "User registered successfully"}))
-            .then(() => setTimeout(() => this.props.history.push('/profile'),2000))
-            .catch(error => this.setState({ errorMessage: "Error! " + error.response.data.error}));
+            .then(() => setTimeout(() => this.props.history.push('/profile'), 2000))
+            .catch(error => this.setState({errorMessage: "Error! " + error.response.data.error}));
     }
 
     render() {
-        const { nickname, password, successMessage, errorMessage } = this.state;
+        const {nickname, password, successMessage, errorMessage} = this.state;
         return (
             <>
                 <h1>Authentication</h1>
@@ -44,7 +44,7 @@ export default class LoginView extends React.Component {
                                 type="text"
                                 className="nick-pass"
                                 value={nickname}
-                                onChange={e => this.setState({ nickname: e.target.value})}
+                                onChange={e => this.setState({nickname: e.target.value})}
                             />
                         </label>
                     </div>
@@ -55,7 +55,7 @@ export default class LoginView extends React.Component {
                                 type="password"
                                 className="nick-pass"
                                 value={password}
-                                onChange={e => this.setState({ password: e.target.value})}
+                                onChange={e => this.setState({password: e.target.value})}
                             />
                         </label>
                     </div>
