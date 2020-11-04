@@ -21,8 +21,6 @@ body {
 }
 
 
-
-
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -51,7 +49,7 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to left, #243B55  20%, #141E30  80%);
+    background-image: linear-gradient(to left, #243B55 20%, #141E30 80%);
 }
 
 .bgTop {
@@ -106,7 +104,6 @@ body {
 }
 
 
-
 #messages {
 
     position: relative;
@@ -116,20 +113,20 @@ body {
 }
 
 #nick {
- border-radius: 20px;
- position: absolute;
- font-size: 20pt;
- width:  200px;
- height: 50px;
- left: 50%;
- top: 40%;
- transform: translate(-50%, -50%)
+    border-radius: 20px;
+    position: absolute;
+    font-size: 20pt;
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%)
 
 }
 
 
 #button {
-	position: absolute;
+    position: absolute;
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -148,9 +145,9 @@ body {
     background: transparent;
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
-    left:45%;
+    left: 45%;
     top: 53%;
-  }
+}
 
 #button:hover {
     background: #fcf7f7;
@@ -161,15 +158,15 @@ body {
 
 
 textarea {
- position: absolute;
- border-radius: 10px;
- border: none;
- font-size: 15pt;
- width:  180px;
- height: 70px;
- left: 50%;
- top: 48%;
- transform: translate(-50%, -50%)
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    font-size: 15pt;
+    width: 180px;
+    height: 70px;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%)
 }
 
 
