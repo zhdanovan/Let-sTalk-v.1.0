@@ -11,6 +11,10 @@
     "start": "node server.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./configs/webpack.development.js",
     "build": "cross-env NODE_ENV=production webpack --config ./configs/webpack.production.js"
+   "lint": "eslint src/",
+   "lint:fix": "eslint src/ --fix",
+   "prettier": "prettier --write \"src/**/*.js\""
+
   },
   "jest": {
     "setupFiles": [
