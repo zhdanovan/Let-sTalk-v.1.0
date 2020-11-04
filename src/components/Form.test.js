@@ -10,10 +10,10 @@ describe('Form', () => {
         const component = shallow(<Form postMessage={handler}/>);
         component
             .find('input[type="text"]')
-            .simulate('change', { target: { value: nick } });
+            .simulate('change', {target: {value: nick}});
         component
             .find('textarea')
-            .simulate('change', { target: { value: message } });
+            .simulate('change', {target: {value: message}});
         component
             .find('input[type="button"]')
             .simulate('click');
