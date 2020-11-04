@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Form from '../components/Form';
 import MessagesList from "../components/MessagesList";
-import Index from "../components/PainCat";
+
 
 const URL = 'http://localhost:3000';
 
@@ -10,11 +10,11 @@ const instance = axios.create({
     baseURL: 'http://localhost:3000'
 });
 
-class ChatView extends React.Component{
-    constructor(){
+class ChatView extends React.Component {
+    constructor() {
         super();
         this.state = {
-            serverMessages:[]
+            serverMessages: []
         };
 
         this.timer = null;
@@ -28,7 +28,7 @@ class ChatView extends React.Component{
         clearInterval(this.timer);
     }
 
-    sendMessage(newMessage){
+    sendMessage(newMessage) {
         instance
             .post('/', {
                 nick: newMessage.nick,
@@ -38,7 +38,7 @@ class ChatView extends React.Component{
             .catch(error => console.error(error));
     }
 
-    getMessages(){
+    getMessages() {
         let xhr = new XMLHttpRequest();
         xhr.open('GET', URL);
         xhr.send();
@@ -51,19 +51,18 @@ class ChatView extends React.Component{
         };
     }
 
-    parseMessages(response){
+    parseMessages(response) {
         const newServerMessages = JSON.parse(response);
         this.setState({
             serverMessages: newServerMessages
         });
     }
 
-    render(){
+    render() {
         const {serverMessages} = this.state;
 
         return <>
             <h1>Chat</h1>
-            <Index/>
             <Form sendMessage={(newMessage) => this.sendMessage(newMessage)}/>
             <MessagesList messages={serverMessages}/>
         </>
