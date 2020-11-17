@@ -10,7 +10,7 @@ ReactDOM.render(
     <Router history={history}>
         <App/>
     </Router>,
-    document.getElementById('container')
+    document.getElementById('root')
 );
 
 
