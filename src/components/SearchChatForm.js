@@ -37,18 +37,19 @@ class SearchChatForm extends React.Component {
 
         return (
             <>
-                <h4>Поиск чата</h4>
-                <form onSubmit={e => this.handleSubmit(e)}>
-                    <div>{error && <span style={{ color: 'red' }}>{error}</span>}</div>
+                <h4>Search chat</h4>
+                <form onSubmit={(e) => this.handleSubmit(e)}>
+                    <div>{error && <span style={{ color: '#fdfcfc' }}>{error}</span>}</div>
                     <div>
                         <label>
+                            Название чата:
                             <input
                                 value={title}
-                                onChange={event => this.setState({ title: event.target.value })}
+                                onChange={(event) => this.setState({ title: event.target.value })}
                             />
                         </label>
                     </div>
-                    <button type="submit">Искать</button>
+                    <button type="submit">Search</button>
                 </form>
             </>
         );
