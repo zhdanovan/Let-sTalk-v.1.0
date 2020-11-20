@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import Message from './Message';
+import Message from './MessageForm';
 
 test('Message shows nick and message', () => {
     const nick = 'test';
