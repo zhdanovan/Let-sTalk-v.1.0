@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-/**
- * Компонент для отображения чата в списке чатов
- */
 class Chat extends React.Component {
     isOwner() {
         return this.props.userId === this.props.chat.userId;
@@ -17,12 +14,11 @@ class Chat extends React.Component {
         if (this.isOwner()) {
             return (
                 <>
-                    <a href="/" onClick={e => this.innerClickHandle(e)}>
+                    <a href="/" onClick={(e) => this.innerClickHandler(e)}>
                         {this.props.chat.title}
                     </a>
-                    &nbsp;
                     <button onClick={() => this.props.deleteHandler(this.props.chat.id)}>
-                        удалить
+                        Delete
                     </button>
                 </>
             );
@@ -30,7 +26,7 @@ class Chat extends React.Component {
         if (this.isParticipant()) {
             return (
                 <>
-                    <a href="/" onClick={e => this.innerClickHandle(e)}>
+                    <a href="/" onClick={(e) => this.innerClickHandler(e)}>
                         {this.props.chat.title}
                     </a>
                     {/* TODO: exit button */}
@@ -40,12 +36,12 @@ class Chat extends React.Component {
         return (
             <>
                 <span>{this.props.chat.title}</span>
-                <button onClick={() => this.props.joinHandler(this.props.chat.id)}>вступить</button>
+                <button onClick={() => this.props.joinHandler(this.props.chat.id)}>Join</button>
             </>
         );
     }
 
-    innerClickHandle(e) {
+    innerClickHandler(e) {
         e.preventDefault();
         this.props.goHandler(this.props.chat.id);
     }
@@ -58,6 +54,7 @@ class Chat extends React.Component {
 Chat.propTypes = {
     userId: PropTypes.string.isRequired,
     chat: PropTypes.shape({
+        userId: PropTypes.string,
         id: PropTypes.string,
         title: PropTypes.string,
         participants: PropTypes.arrayOf(PropTypes.string)
