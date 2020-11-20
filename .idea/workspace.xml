@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6e98c7-f5d5-48dd-825e-c1db17fb0634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchChatForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LoginView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RegistrationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,6 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,10 +127,46 @@
       <workItem from="1604491363745" duration="165000" />
       <workItem from="1604742543718" duration="22000" />
       <workItem from="1605601000078" duration="185000" />
+      <workItem from="1605797975447" duration="606000" />
+      <workItem from="1605798723562" duration="1021000" />
+      <workItem from="1605801157816" duration="278000" />
+      <workItem from="1605801922975" duration="544000" />
+      <workItem from="1605853352235" duration="381000" />
+      <workItem from="1605854674015" duration="1224000" />
+      <workItem from="1605856739398" duration="417000" />
+      <workItem from="1605857841269" duration="148000" />
+      <workItem from="1605858113941" duration="47000" />
+      <workItem from="1605858214537" duration="114000" />
+      <workItem from="1605859054975" duration="892000" />
+      <workItem from="1605890061620" duration="287000" />
+      <workItem from="1605890564617" duration="425000" />
+      <workItem from="1605891166310" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605857132237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605857132237" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605799284768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605799284768" />
   </component>
 </project>
