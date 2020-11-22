@@ -30,7 +30,19 @@ export default class LoginView extends React.Component {
         e.preventDefault();
     }
 
+
+    redirectAfterLogin() {
+        const redirectUrl = this.props.location?.state.from.pathname
+            ? this.props.location.state.from.pathname
+            : '/profile';
+        this.props.updateAuthHandler().then(() => this.props.history.push(redirectUrl));
+    }
+
+
     render() {
+
+        const { error, result } = this.state;
+
         return (
             <>
                 <h1>Логин</h1>
