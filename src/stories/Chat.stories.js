@@ -12,7 +12,7 @@ const Template = args => <Chat {...args} />;
 const chat = {
     id: '0b634621ac63b',
     createdAt: '2020-11-11T11:16:03.903Z',
-    title: 'Мой супер чат',
+    title: 'Мой чатик любимый великолепнsq',
     userId: '1',
     participants: ['1', '2'],
     isPrivate: false
