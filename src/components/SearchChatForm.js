@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 class SearchChatForm extends React.Component {
     constructor(props) {
         super(props);
@@ -37,7 +38,7 @@ class SearchChatForm extends React.Component {
 
         return (
             <>
-                <h4>Search chat</h4>
+              <h4>Search chat</h4>
                 <form onSubmit={(e) => this.handleSubmit(e)}>
                     <div>{error && <span style={{ color: '#fdfcfc' }}>{error}</span>}</div>
                     <div>
