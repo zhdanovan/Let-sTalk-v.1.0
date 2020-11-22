@@ -19,7 +19,7 @@ export default class ProfileView extends React.Component {
             .getCurrent()
             .then(response => response.data)
             .then(user => this.setState({ user }))
-            .then(() => apiService.chat.getMyChats(this.state.user.id))
+            .then(() => apiService.chat.getMyChats(this.props.user.id))
             .then(response => response.data)
             .then(chats => this.setState({ chats }));
     }
@@ -30,7 +30,7 @@ export default class ProfileView extends React.Component {
 
     getChatList() {
         apiService.chat
-            .getMyChats(this.state.user.id)
+            .getMyChats(this.props.user.id)
             .then(response => response.data)
             .then(chats => this.setState({ chats }));
     }
@@ -71,7 +71,7 @@ export default class ProfileView extends React.Component {
 
                 <h3>Мои чаты</h3>
                 <ChatList
-                    userId={this.state.user?.id}
+                    userId={this.props.user?.id}
                     list={this.state.chats}
                     goHandler={id => this.goHandler(id)}
                     joinHandler={id => this.joinHandler(id)}
@@ -81,7 +81,7 @@ export default class ProfileView extends React.Component {
 
                 <SearchChatForm handleSubmit={data => this.handleChatSearch(data)} />
                 <ChatList
-                    userId={this.state.user?.id}
+                    userId={this.props.user?.id}
                     list={this.state.foundChats}
                     goHandler={id => this.goHandler(id)}
                     joinHandler={id => this.joinHandler(id)}
