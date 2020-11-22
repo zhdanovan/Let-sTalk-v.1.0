@@ -16,7 +16,10 @@
     "prettier": "prettier --write \"src/**/*.js\"",
     "storybook": "start-storybook -p 6006 --no-dll",
     "build-storybook": "build-storybook --no-dll",
-    "nightwatch": "nightwatch"
+    "nightwatch": "nightwatch",
+    "loki:test": "npm run build-storybook && npx loki test --reactUri file:./storybook-static",
+    "loki:update": "npm run build-storybook && npx loki update --reactUri file:./storybook-static",
+    "loki:approve": "npx loki approve"
   },
   "jest": {
     "setupFiles": [
@@ -36,10 +39,12 @@
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
+    "@emotion/core": "^11.0.0",
     "@storybook/addon-actions": "^6.0.28",
-    "@storybook/addon-docs": "^6.0.28",
+    "@storybook/addon-docs": "^6.1.2",
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/addon-links": "^6.0.28",
+    "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.0.28",
     "axios": "^0.21.0",
     "babel-eslint": "^10.1.0",
@@ -65,6 +70,7 @@
     "history": "^4.10.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.5.3",
+    "loki": "^0.25.1",
     "nightwatch": "^1.5.1",
     "prettier": "^2.1.2",
     "prop-types": "^15.7.2",
@@ -78,9 +84,30 @@
     "webpack-merge": "^5.1.4"
   },
   "dependencies": {
+    "-": "0.0.1",
     "@babel/core": "^7.11.6",
+    "@emotion/styled": "^11.0.0",
+    "D": "^1.0.0",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.7.0",
     "react": "^16.13.1",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
     "set-default-browser": "^1.1.1"
+  },
+  "loki": {
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.app",
+        "width": 1366,
+        "height": 768,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "chrome.iphone7": {
+        "target": "chrome.app",
+        "preset": "iPhone 7"
+      }
+    }
   }
 }
