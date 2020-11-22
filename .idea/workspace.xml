@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6e98c7-f5d5-48dd-825e-c1db17fb0634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration/Main.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchChatForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Chat.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Chat.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ChatList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ChatList.stories.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +119,10 @@
       <workItem from="1605891166310" duration="108000" />
       <workItem from="1605891582205" duration="68000" />
       <workItem from="1605892955326" duration="38000" />
+      <workItem from="1605981831182" duration="74000" />
+      <workItem from="1605982042626" duration="87000" />
+      <workItem from="1605982266596" duration="105000" />
+      <workItem from="1605982391506" duration="87000" />
     </task>
     <servers />
   </component>
@@ -138,6 +146,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605857132237" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1605982477660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1605982477660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1605982477660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1605982477660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1605799284768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
