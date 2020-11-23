@@ -62,3 +62,4 @@ SearchChatForm.propTypes = {
 };
 
 export default SearchChatForm;
+
