@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Button } from '@material-ui/core';
 
 class ChatForm extends React.Component {
     constructor(props) {
@@ -49,7 +50,7 @@ class ChatForm extends React.Component {
                             />
                         </label>
                     </div>
-                    <button type="submit">Сохранить</button>
+                    <button variant="contained" color="primary" type="submit">Сохранить</button>
                 </form>
             </>
         );
