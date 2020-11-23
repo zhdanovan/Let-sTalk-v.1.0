@@ -50,7 +50,7 @@ class ChatForm extends React.Component {
                             />
                         </label>
                     </div>
-                    <button variant="contained" color="primary" type="submit">Сохранить</button>
+                    <Button variant="contained" color="primary" type="submit">Сохранить</Button>
                 </form>
             </>
         );
