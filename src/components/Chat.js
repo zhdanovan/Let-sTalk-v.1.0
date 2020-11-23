@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Button} from "@material-ui/core";
 
 class Chat extends React.Component {
     isOwner() {
@@ -17,7 +18,7 @@ class Chat extends React.Component {
                     <a href="/" onClick={(e) => this.innerClickHandler(e)}>
                         {this.props.chat.title}
                     </a>
-                    <button onClick={() => this.props.deleteHandler(this.props.chat.id)}>
+                    <button variant="contained" color="secondary" onClick={() => this.props.deleteHandler(this.props.chat.id)}>
                         Delete
                     </button>
                 </>
@@ -36,7 +37,7 @@ class Chat extends React.Component {
         return (
             <>
                 <span>{this.props.chat.title}</span>
-                <button onClick={() => this.props.joinHandler(this.props.chat.id)}>Join</button>
+                <Button variant="contained" color="secondary" onClick={() => this.props.joinHandler(this.props.chat.id)}>Join</Button>
             </>
         );
     }
