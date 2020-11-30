@@ -8,7 +8,7 @@ class ChatList extends React.Component {
             <>
                 {this.props.list.length ? (
                     <ul>
-                        {this.props.list.map((chat) => (
+                        {this.props.list.map(chat => (
                             <Chat
                                 userId={this.props.userId}
                                 chat={chat}

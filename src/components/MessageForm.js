@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 class MessageForm extends React.Component {
     constructor(props) {
         super(props);
@@ -30,7 +28,6 @@ class MessageForm extends React.Component {
                 />
                 <br />
                 <button type="submit">отправить</button>
-                    
             </form>
         );
     }

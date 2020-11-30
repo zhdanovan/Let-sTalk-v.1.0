@@ -30,7 +30,6 @@ export default class LoginView extends React.Component {
         e.preventDefault();
     }
 
-
     redirectAfterLogin() {
         const redirectUrl = this.props.location?.state.from.pathname
             ? this.props.location.state.from.pathname
@@ -38,16 +37,14 @@ export default class LoginView extends React.Component {
         this.props.updateAuthHandler().then(() => this.props.history.push(redirectUrl));
     }
 
-
     render() {
-
         const { error, result } = this.state;
 
         return (
             <>
                 <h1>Логин</h1>
-                {this.state.error}
-                {this.state.result}
+                {error}
+                {result && <div className="result">{result}</div>}
                 <form onSubmit={e => this.handleSubmit(e)}>
                     <div>
                         <label>

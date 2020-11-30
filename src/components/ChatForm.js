@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
 import Input from '@material-ui/core/Input';
 
 class ChatForm extends React.Component {
@@ -41,19 +40,22 @@ class ChatForm extends React.Component {
         return (
             <>
                 <h4>Создание/редактирование чата</h4>
-                <form onSubmit={(e) => this.handleSubmit(e)}>
+                <form onSubmit={e => this.handleSubmit(e)}>
                     <div>{error && <span style={{ color: '#fdfcfd' }}>{error}</span>}</div>
                     <div>
                         <label>
                             Название чата:
                             <Input
-                                placeholder="Placeholder" inputProps={{ 'aria-label': 'description' }}
+                                placeholder="Placeholder"
+                                inputProps={{ 'aria-label': 'description' }}
                                 value={title}
-                                onChange={(event) => this.setState({ title: event.target.value })}
+                                onChange={event => this.setState({ title: event.target.value })}
                             />
                         </label>
                     </div>
-                    <Button variant="contained" color="primary" type="submit">Сохранить</Button>
+                    <Button variant="contained" color="primary" type="submit">
+                        Сохранить
+                    </Button>
                 </form>
             </>
         );

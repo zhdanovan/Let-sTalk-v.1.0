@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Button} from "@material-ui/core";
+import { Button } from '@material-ui/core';
 
 class Chat extends React.Component {
     isOwner() {
@@ -15,10 +15,14 @@ class Chat extends React.Component {
         if (this.isOwner()) {
             return (
                 <>
-                    <a href="/" onClick={(e) => this.innerClickHandler(e)}>
+                    <a href="/" onClick={e => this.innerClickHandler(e)}>
                         {this.props.chat.title}
                     </a>
-                    <button variant="contained" color="secondary" onClick={() => this.props.deleteHandler(this.props.chat.id)}>
+                    <button
+                        variant="contained"
+                        color="secondary"
+                        onClick={() => this.props.deleteHandler(this.props.chat.id)}
+                    >
                         Delete
                     </button>
                 </>
@@ -27,7 +31,7 @@ class Chat extends React.Component {
         if (this.isParticipant()) {
             return (
                 <>
-                    <a href="/" onClick={(e) => this.innerClickHandler(e)}>
+                    <a href="/" onClick={e => this.innerClickHandler(e)}>
                         {this.props.chat.title}
                     </a>
                     {/* TODO: exit button */}
@@ -37,7 +41,13 @@ class Chat extends React.Component {
         return (
             <>
                 <span>{this.props.chat.title}</span>
-                <Button variant="contained" color="secondary" onClick={() => this.props.joinHandler(this.props.chat.id)}>Join</Button>
+                <Button
+                    variant="contained"
+                    color="secondary"
+                    onClick={() => this.props.joinHandler(this.props.chat.id)}
+                >
+                    Join
+                </Button>
             </>
         );
     }

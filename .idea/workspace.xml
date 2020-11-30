@@ -20,9 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6e98c7-f5d5-48dd-825e-c1db17fb0634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchChatForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Chat.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Chat.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ChatList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ChatList.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LoginView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RegistrationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +88,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Lenovo\Desktop\Чатик 3.0\Let-sTalk-v.1.0\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -129,6 +156,19 @@
       <workItem from="1606121436721" duration="693000" />
       <workItem from="1606122675272" duration="62000" />
       <workItem from="1606122816961" duration="376000" />
+      <workItem from="1606124269543" duration="333000" />
+      <workItem from="1606127404589" duration="238000" />
+      <workItem from="1606127801943" duration="218000" />
+      <workItem from="1606129396692" duration="667000" />
+      <workItem from="1606130223149" duration="260000" />
+      <workItem from="1606131454167" duration="649000" />
+      <workItem from="1606132598466" duration="78000" />
+      <workItem from="1606134996485" duration="1251000" />
+      <workItem from="1606141830125" duration="1014000" />
+      <workItem from="1606143010234" duration="179000" />
+      <workItem from="1606144544286" duration="1376000" />
+      <workItem from="1606747969855" duration="393000" />
+      <workItem from="1606748411351" duration="674000" />
     </task>
     <servers />
   </component>
