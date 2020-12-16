@@ -17,6 +17,7 @@ class ChatView extends React.Component {
 
     componentDidMount() {
         this.setState({ users: [], messages: [] });
+        this.getMessages();
         this.timer = setInterval(this.getMessages.bind(this), 1000);
     }
 
