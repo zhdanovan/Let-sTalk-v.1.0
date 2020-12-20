@@ -1,5 +1,6 @@
 import React from 'react';
 import apiService from '../apiService';
+import Button from '@material-ui/core/Button';
 
 export default class LoginView extends React.Component {
     constructor(props) {
@@ -66,7 +67,7 @@ export default class LoginView extends React.Component {
                             />
                         </label>
                     </div>
-                    <button type="submit">Войти</button>
+                    <Button  variant="contained" color= "primary" type="submit">Войти</Button>
                 </form>
             </>
         );
