@@ -72,7 +72,7 @@
     "html-webpack-plugin": "^4.5.0",
     "husky": "^4.3.0",
     "jest": "^26.5.3",
-    "lint-staged": "^10.5.2",
+    "lint-staged": "^10.5.3",
     "loki": "^0.25.1",
     "nightwatch": "^1.5.1",
     "prettier": "^2.2.1",
@@ -99,6 +99,7 @@
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
     "set-default-browser": "^1.1.1",
+    "styled-components": "^5.2.1",
     "use-sound": "^2.0.0"
   },
   "loki": {
@@ -114,6 +115,16 @@
         "target": "chrome.app",
         "preset": "iPhone 7"
       }
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "*.(js|jsx)": [
+        "eslint --fix"
+      ]
     }
   }
 }
