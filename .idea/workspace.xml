@@ -20,35 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6e98c7-f5d5-48dd-825e-c1db17fb0634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Message.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Messages.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchChatForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Chat.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Chat.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ChatList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ChatList.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/Message.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__snapshots__/Message.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/LoginView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RegistrationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jp6QLvyQHh7vauZSRI5Ow8PAZM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,6 +64,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -91,7 +73,39 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Чатик 3.0\Let-sTalk-v.1.0\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Message.Message shows nick and message">
+    <configuration name="Message" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Message.test.js" />
+      <test-names>
+        <test-name value="Message" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Message.Message shows nick and message" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Message.test.js" />
+      <test-names>
+        <test-name value="Message" />
+        <test-name value="Message shows nick and message" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ChatHello!/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -100,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Message.Message shows nick and message" />
+        <item itemvalue="Jest.Message" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -169,6 +185,13 @@
       <workItem from="1606144544286" duration="1376000" />
       <workItem from="1606747969855" duration="393000" />
       <workItem from="1606748411351" duration="674000" />
+      <workItem from="1608494472079" duration="4842000" />
+      <workItem from="1608530140151" duration="1923000" />
+      <workItem from="1608532348723" duration="856000" />
+      <workItem from="1608722184038" duration="1000" />
+      <workItem from="1608723942105" duration="599000" />
+      <workItem from="1608728836702" duration="666000" />
+      <workItem from="1608731954824" duration="596000" />
     </task>
     <servers />
   </component>
@@ -187,30 +210,16 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605857132237">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605857132237" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1605982477660">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1605982477660">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1605982477660">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1605982477660">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605982477660" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1605799284768">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605799284768" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Message.test.js</url>
+          <line>19</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
