@@ -9,7 +9,8 @@ export default class LoginView extends React.Component {
             nickname: '',
             password: '',
             result: null,
-            error: null
+            error: null,
+
         };
     }
 
@@ -21,14 +22,18 @@ export default class LoginView extends React.Component {
         apiService.auth
             .login({
                 nickname: this.state.nickname,
-                password: this.state.password
+                password: this.state.password,
+
             })
+
             .then(() => {
                 this.setState({ result: 'Успешно!' });
                 setTimeout(() => this.redirectAfterLogin(), 2000);
             })
             .catch(error => this.setState({ error: 'Ошибка' + error.response.data.error }));
         e.preventDefault();
+
+
     }
 
     redirectAfterLogin() {
