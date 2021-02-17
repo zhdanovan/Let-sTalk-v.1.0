@@ -15,6 +15,7 @@ export default {
         create: ({ nickname, password }) => axiosInstance.post('/user', { nickname, password }),
         getCurrent: () => axiosInstance.get('/user'),
         getById: id => axiosInstance.get(`/user/${id}`)
+
     },
     chat: {
         create: ({ title }) => axiosInstance.post('/chat', { title }),
@@ -22,7 +23,8 @@ export default {
         search: title => axiosInstance.get(`/chat/?title=${title}`),
         getInfo: id => axiosInstance.get(`/chat/${id}`),
         delete: id => axiosInstance.delete(`/chat/${id}`),
-        join: chatId => axiosInstance.put(`/chat/${chatId}`)
+        join: chatId => axiosInstance.put(`/chat/${chatId}`),
+
     },
     message: {
         create: ({ content, chatId }) => axiosInstance.post('/message', { content, chatId }),
