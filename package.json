@@ -100,7 +100,7 @@
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
     "set-default-browser": "^1.1.1",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.3.1",
     "use-sound": "^2.0.0"
   },
   "loki": {
